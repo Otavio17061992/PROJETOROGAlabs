@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body, main{
+
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+:root {
+    --primary-color: #fff;
+    --secundary-color: rgb(13, 12, 12);
+    --color-style: rgb(139, 135, 135);
+    --font-sizeC: 1.1rem;
+    --color-hover: rgb(220, 207, 207);
+
+}
+
+/*========== style default ===================== */
+
+#paginate {
+    padding: 1.3rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* ================style of header========== */
+ main .controls, .list-pagination{
+    display: flex;
+} 
+
+ .list-pagination {
+    gap: 1rem;
+} 
+
+ .item-pagination {
+
+   
+    cursor: pointer;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+  .pontos {
+    border: 1px solid var(--color-style);
+    cursor: pointer;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.numbers {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+ #paginate .list-pagination .numbers {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14;
+} 
+ 
+#paginate .list-pagination div:not(.numbers),
+#paginate .list-pagination div.numbers li{
+    width: 35px;
+    height: 20px;
+    margin-left: 13px;
+    list-style: none;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+
+}
+
+.item-pagination {
+    padding: 10px;
+}
+
+
+li:hover, .item-pagination:hover {
+    background-color: var(--color-hover);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    
+}
+
+
+li.active {
+    background-color: var(--color-hover);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/*==================style of main============ */
+
+
+
+
+.item{
+    
+    display: flex;
+    border: 1px solid var(--color-style);
+    flex-direction: column;
+    margin-top: 1.3rem;
+    padding: 1.3rem;
+    gap: 3px;
+
+      
+}
+
+
+
+
+
+.name {
+    font-size: var(--font-sizeC) ;
+}
