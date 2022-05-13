@@ -36,9 +36,7 @@ ul {
     display: flex;
 } 
 
- .list-pagination {
-    gap: 1rem;
-} 
+ 
 
  .item-pagination {
 
@@ -78,25 +76,24 @@ ul {
  
 #paginate .list-pagination div:not(.numbers),
 #paginate .list-pagination div.numbers li{
-    width: 35px;
     height: 20px;
+    width: 1.9rem;
     margin-left: 13px;
     list-style: none;
     list-style: none;
     text-align: center;
-    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     user-select: none;
     transition: all 0.3s ease;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid lightgray;
     border-radius: 2px;
 
 }
 
 .item-pagination {
-    padding: 10px;
+    padding: 8px;
 }
 
 
